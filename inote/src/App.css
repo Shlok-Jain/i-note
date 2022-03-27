@@ -1,0 +1,106 @@
+body{
+  background-color: rgb(49, 49, 49);
+}
+nav{
+  background-color: black;
+  position: fixed !important;
+  width: 100%;
+  top:0;
+}
+label{
+  color: white;
+}
+h1{
+  color: white;
+}
+.login{
+  margin-top: 70px;
+}
+.login>.container{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.modal-label{
+  color:black
+}
+.homeclass{
+  margin-top: 70px;
+}
+.card{
+  width: 100%;
+  border: 2px solid grey !important;
+  max-height: 500px;
+  overflow: hidden;
+}
+.form-text{
+  color: white;
+  background-color: grey;
+}
+.notesclass{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 20px;
+  color:white
+}
+.card-header{
+  display: flex;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  max-height: 60px;
+}
+.card-body{
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+.note-title{
+  width: 65%;
+}
+.card-buttons{
+  width: 35%;
+  display: flex;
+}
+@media screen and  (max-width:990px){
+  .notesclass{
+    grid-template-columns: 1fr 1fr
+  }
+}
+@media screen and  (max-width:750px){
+  .notesclass{
+    grid-template-columns: 1fr
+  }
+}
+@media screen and  (max-width:700px){
+  .notesclass{
+    grid-template-columns: 1fr
+  }
+}
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: white !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color: white !important;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color: white !important;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color: white !important;
+}
